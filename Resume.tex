@@ -1,0 +1,71 @@
+
+\documentclass[11pt,a4paper,sans]{moderncv} 
+
+\moderncvstyle{casual}    
+\moderncvcolor{green} 
+
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue
+}
+
+
+\setlength{\hintscolumnwidth}{2cm}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+
+% personal data
+\name{}{Глеб Пушкарев}
+\title{Резюме}                           
+\phone[mobile]{+7(952)666-13-10}                  
+\email{gleb.pushkarev@gmail.com}
+\social[github]{NelosG}                            
+
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
+\begin{document}
+\makecvtitle
+
+\section{Неоконченное высшее образование}
+\cvitem{2019-2023}{Университет ИТМО,}
+\cvitem{}{Кафедра Компьютерных Технологий,} 
+\cvitem{}{Специальность Прикладная математика и информатика}
+
+\section{Опыт Работы}
+\cvitem{}{Нет}
+    
+
+\section{Знание Языков}
+\cvitem{Русский}{Родной}
+\cvitem{Английский}{B1}
+
+\section{Ключевые навыки}
+\cvitem{}{C++ 17, Java, Qt 5, CMake, Gradle, bash, Git, ООП, Паттерны проектирования}
+
+\section{Учебные проекты}
+\cvitem{C++}{\href{https://github.com/NelosG/intrusive_list_task}{intrusive\_list}, \href{https://github.com/NelosG/function_task}{function}, \href{https://github.com/NelosG/optional-task}{optional}, \href{https://github.com/NelosG/shared_ptr_task}{shared\_ptr}, \href{https://github.com/NelosG/signal_task}{signal},}
+
+\cvitem{}{\href{https://github.com/NelosG/Bimap}{bimap}, \href{https://github.com/NelosG/Qt-Mandelbrot}{Mandelbrot} (multi threading + Qt),}
+\cvitem{}{различные алгоритмы и структуры данных для лабораторных работ,}
+\cvitem{}{автоматы, графы и регулярные языки (курс дискретной математики)}
+\cvitem{Java}{\href{https://github.com/NelosG/ITMO-KT/tree/master/Java\%20HM/FirstYear/2.1}{Парсер для алгебраических выражений}, Markdown to HTML, \href{https://github.com/NelosG/ITMO-KT/tree/master/Java\%20HM/FirstYear/FastScanner}{Scanner},}
+\cvitem{}{различные алгоритмы и структуры данных для лабораторных работ,}
+\cvitem{}{автоматы, графы и регулярные языки (курс дискретной математики),}
+\cvitem{}{\href{https://github.com/AntonAsmirko/Optimization-Methods}{Реализация методов оптимизации}}
+\cvitem{Clojure}{\href{https://github.com/NelosG/ITMO-KT/tree/master/Clojure\%20HM}{Парсер для алгебраических выражений}, \href{https://github.com/NelosG/ITMO-KT/tree/master/Clojure\%20HM}{Операции с векторами и матрицами}}
+\cvitem{JavaScript}{\href{https://github.com/NelosG/ITMO-KT/tree/master/Js\%20HM}{Парсер для алгебраических выражений}}
+\cvitem{Prolog}{\href{https://github.com/NelosG/ITMO-KT/tree/master/Prolog\%20HM}{Поиск простых чисел}, \href{https://github.com/NelosG/ITMO-KT/tree/master/Prolog\%20HM}{Tree\_Map}}
+ 
+ \section{Пройденные курсы}
+\cvitem{}{Алгоритмы и структуры данных, Дискретная математика,}
+\cvitem{}{Математический анализ, Линейная алгебра,}
+\cvitem{}{Программирование, Курс C++, Дифференциальные уравнения,}
+\cvitem{}{Теория вероятности, Архитектура ЭВМ, Операционные системы}
+
+\end{document}
